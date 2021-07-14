@@ -114,16 +114,30 @@ a.brand {
 /* Image */
 img {
   border-radius: 0.5rem;
-  max-height: 350px;
-  max-width: 200px;
   object-fit: cover;
 }
+
 img.medium {
   max-width: 29rem;
   width: 100%;
 }
+
 img.large {
   width: 100%;
+}
+
+.front {
+  border-radius: 0.5rem;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+
+img.ps {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 /* Card */
