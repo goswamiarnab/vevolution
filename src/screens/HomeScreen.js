@@ -1,7 +1,6 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import Product from "../components/Product";
 import axios from "axios";
-//import data from "../data";
 
 export default function HomeScreen() {
   const [products, setProducts] = useState([]);
